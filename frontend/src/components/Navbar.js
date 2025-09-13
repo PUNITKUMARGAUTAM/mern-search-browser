@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-blue-600 text-white px-6 py-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold">MERN Browser</h1>
+      <h1 className="text-xl font-bold">Punit Browser</h1>
       {user ? (
         <div className="flex items-center gap-4">
           <span>{user.name || user?.email || "User"}</span>
